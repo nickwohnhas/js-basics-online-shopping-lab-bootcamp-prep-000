@@ -27,7 +27,12 @@ function viewCart() {
      cartstr = cartstr += `${objname} at $${objprice}.` 
      }
      else if (cart.length == 2 ){
-       
+       var obj1st = cart[0]
+       var objname1 = obj1st.itemName
+       var obj2nd = cart[1]
+       var objname2 = obj2nd.itemName
+       var objprice1 = obj1st.itemPrice
+       var objprice2 = obj2nd.itemPrice
      }
    }
  }
