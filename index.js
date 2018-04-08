@@ -36,11 +36,13 @@ function viewCart() {
      }
    }
  }
- else if(cart.length == 0){
-   
- } 
-   
+ else{
+   return `Your shopping cart is empty.`
  }
+}
+  
+   
+ 
 
  
  
