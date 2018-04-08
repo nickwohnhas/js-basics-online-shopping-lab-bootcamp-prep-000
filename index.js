@@ -41,7 +41,7 @@ function viewCart() {
  } 
    
  }
-}
+
  
  
   // write your code here
