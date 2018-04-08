@@ -35,7 +35,7 @@ function viewCart() {
        var objprice2 = obj2nd.itemPrice
      }
    }
- 
+ else 
    
  }
  
