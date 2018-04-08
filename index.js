@@ -17,32 +17,14 @@ function addToCart(item) {
 
 function viewCart() {
  var cartstr = `In your cart, you have `
- if (cart.length>0){
-   for (var i = 0,i<cart.length,i++){
-     var cartobj = cart[i]
-     var objname = cartobj.itemName
-     var objprice = cartobj.itemPrice
-     if (cart.length == 1){
-    cartstr = cartstr += `${objname} at $${objprice}.` 
-     }
-     else if (cart.length == 2 ){
-       var obj1st = cart[0]
-       var objname1 = obj1st.itemName
-       var obj2nd = cart[1]
-       var objname2 = obj2nd.itemName
-       var objprice1 = obj1st.itemPrice
-       var objprice2 = obj2nd.itemPrice
-     }
-   }
-   
- }
- else{
-  cartstr = `Your shopping cart is empty.`
-} 
-return cartstr
-  
+ if (cart.length === 0){
+    return "Your shopping cart is empty."
+  }
+  else if (cart.length == 1){
+    
+  }
+    
 }
-  
    
  
 
