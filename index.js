@@ -16,6 +16,10 @@ function addToCart(item) {
 }
 
 function viewCart() {
+ if (cart.length>0){
+   for
+ }
+ 
   // write your code here
 }
 
