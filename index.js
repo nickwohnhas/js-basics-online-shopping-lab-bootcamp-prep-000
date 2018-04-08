@@ -16,8 +16,11 @@ function addToCart(item) {
 }
 
 function viewCart() {
+ var cartstr = `In your cart, you have `
  if (cart.length>0){
-   for
+   for (var i = 0,i<cart.length,i++){
+     
+   }
  }
  
   // write your code here
