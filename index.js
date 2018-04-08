@@ -35,7 +35,10 @@ function viewCart() {
        var objprice2 = obj2nd.itemPrice
      }
    }
+ 
+   
  }
+ 
  
   // write your code here
 }
