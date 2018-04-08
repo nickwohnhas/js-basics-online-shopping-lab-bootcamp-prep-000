@@ -23,7 +23,7 @@ function viewCart() {
      var objname = cartobj.itemName
      var objprice = cartobj.itemPrice
      if (cart.length == 1){
-     cartstr = cartstr += `${objname} at $${objprice}.` 
+    cartstr = cartstr += `${objname} at $${objprice}.` 
      }
      else if (cart.length == 2 ){
        var obj1st = cart[0]
@@ -36,10 +36,10 @@ function viewCart() {
    }
    return cartstr
  }
- else{
+ 
    return `Your shopping cart is empty.`
- }
-}
+ 
+
   
    
  
