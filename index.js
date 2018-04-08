@@ -35,7 +35,10 @@ function viewCart() {
        var objprice2 = obj2nd.itemPrice
      }
    }
- else 
+ }
+ else if(cart.length == 0){
+   
+ } 
    
  }
 }
