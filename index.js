@@ -36,10 +36,10 @@ function viewCart() {
    }
    return cartstr
  }
- 
+ else{
    return `Your shopping cart is empty.`
- 
-
+} 
+}
   
    
  
