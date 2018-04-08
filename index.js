@@ -24,7 +24,7 @@ function viewCart() {
      var objname = cartobj.itemName
      var objprice = cartobj.itemPrice
      if (cart.length == 1){
-      return cartstr += `${objname} at ` 
+      return cartstr += `${objname} at $${objprice}.` 
      }
    }
  }
