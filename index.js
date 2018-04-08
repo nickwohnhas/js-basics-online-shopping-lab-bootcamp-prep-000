@@ -38,6 +38,7 @@ function viewCart() {
  else 
    
  }
+}
  
  
   // write your code here
