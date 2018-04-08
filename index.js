@@ -34,7 +34,7 @@ function viewCart() {
        var objprice2 = obj2nd.itemPrice
      }
    }
-   return cartstr
+   
  }
  else{
   cartstr = `Your shopping cart is empty.`
