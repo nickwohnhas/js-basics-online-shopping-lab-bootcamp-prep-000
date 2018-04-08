@@ -20,8 +20,11 @@ function viewCart() {
  if (cart.length>0){
    
    for (var i = 0,i<cart.length,i++){
+     var cartobj = cart[i]
+     var objname = cartobj.itemName
+     var objprice = cartobj.itemPrice
      if (cart.length == 1){
-      return cartstr += `` 
+      return cartstr += `${objname} at ` 
      }
    }
  }
