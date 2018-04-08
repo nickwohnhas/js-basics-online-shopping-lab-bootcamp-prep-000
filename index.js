@@ -33,7 +33,7 @@ function viewCart() {
        var objprice1 = obj1st.itemPrice
        var objprice2 = obj2nd.itemPrice
      }
-   }
+   
  }
  else{
    return `Your shopping cart is empty.`
