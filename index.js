@@ -17,16 +17,14 @@ function addToCart(item) {
 
 function viewCart() {
  var cartstr = `In your cart, you have `
- var cartobj1 = cart[0]
- var cartname1 = cartobj1.itemName
- var cartprice1 = cartobj1.itemPrice
+ 
  if (cart.length === 0){
     return "Your shopping cart is empty."
   }
   else if (cart.length == 1){
     var cartobj1 = cart[0]
- var cartname1 = cartobj1.itemName
- var cartprice1 = cartobj1.itemPrice
+     var cartname1 = cartobj1.itemName
+     var cartprice1 = cartobj1.itemPrice
     return `In your cart, you have ${cartname1} at $${cartprice1}.`
   }
     
