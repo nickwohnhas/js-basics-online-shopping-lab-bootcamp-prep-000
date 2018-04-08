@@ -27,6 +27,12 @@ function viewCart() {
      var cartprice1 = cartobj1.itemPrice
     return `In your cart, you have ${cartname1} at $${cartprice1}.`
   }
+  else if (cart.length == 2){
+    var cartobj2 = cart[1]
+    var cartname2 = cartobj2.itemName
+    var cartprice2 = cartobj2.itemPrice
+    return `In your cart, you have ${cartname1} at $${cartprice1}, and `
+  }
     
 }
    
