@@ -26,7 +26,9 @@ function viewCart() {
      if (cart.length == 1){
      cartstr = cartstr += `${objname} at $${objprice}.` 
      }
-     return cartstr
+     else if (cart.length == 2 ){
+       
+     }
    }
  }
  
