@@ -70,10 +70,11 @@ function removeFromCart(item) {
     var object = cart[i]
     var objectname = object.itemName
     if (item == objectname){
-     var newcart = cart.splice(i,1)
+      cart.splice(i,1)
+      return cart
       }
       else {
-        return
+        return `That item is not in your cart.`
       }
   }
 }
