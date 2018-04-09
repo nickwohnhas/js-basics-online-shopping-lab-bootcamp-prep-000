@@ -37,7 +37,14 @@ function viewCart() {
     return `In your cart, you have ${cartname11} at $${cartprice11}, and ${cartname2} at $${cartprice2}.`
   }
     else{
-      for (var i = 0,)
+      for (var i = 0,i<cart.length - 1,i++){
+        var cartobjx = cart[i]
+        var cartnamex = cartobjx.itemName
+        var cartpricex = cartobjx.itemPrice
+        cartstr += `${cartnamex} at ${cartpricex}, `
+      }
+    
+      return cartstr 
     }
 }
    
