@@ -53,15 +53,16 @@ function viewCart() {
       return cartstr 
     }
 }
-   
- 
 
- 
- 
-  // write your code here
 
 function total() {
-  // write your code here
+ var sum = 0
+ for  (var i = 0,i<cart.length,i++){
+   var object = cart[i]
+   var objectprice = object.itemPrice
+  sum = sum + objectprice
+    }
+  return sum
 }
 
 function removeFromCart(item) {
