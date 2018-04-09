@@ -46,7 +46,7 @@ function viewCart() {
         i++
         cartstr += `${cartnamex} at ${cartpricex},`
       }
-      var finalobj = cart[cart.length]
+      var finalobj = cart[cart.length - 1]
       var finalname = finalobj.itemName
       var finalprice = finalobj.itemPrice
     cartstr += `and ${finalname} at ${finalprice}.`
