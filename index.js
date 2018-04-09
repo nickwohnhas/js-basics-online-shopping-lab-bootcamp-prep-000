@@ -39,6 +39,7 @@ function viewCart() {
     else{
       var i = 0
       while(i<cart.length - 1){
+        
         var cartobjx = cart[i]
         var cartnamex = cartobjx.itemName
         var cartpricex = cartobjx.itemPrice
