@@ -57,10 +57,10 @@ function viewCart() {
 
 function total() {
  var sum = 0
- for  (var i = 0,i<cart.length,i++){
+ for  (var i = 0;i<cart.length;i++){
    var object = cart[i]
    var objectprice = object.itemPrice
-  sum = sum + objectprice
+   sum += objectprice
     }
   return sum
 }
