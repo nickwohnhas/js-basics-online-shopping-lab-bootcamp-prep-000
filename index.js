@@ -86,6 +86,6 @@ function placeOrder(cardNumber) {
     return `Sorry, we don't have a credit card on file for you.`
   }
   cart.length = 0
-    return `Your total cost is $${new_total()}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is $${new_total}, which will be charged to the card ${cardNumber}.`
   
 }
