@@ -17,7 +17,7 @@ function addToCart(item) {
 
 function viewCart() {
  var cartstr = `In your cart, you have `
- 
+ var i = 0
  if (cart.length === 0){
     return "Your shopping cart is empty."
   }
@@ -37,7 +37,7 @@ function viewCart() {
     return `In your cart, you have ${cartname11} at $${cartprice11}, and ${cartname2} at $${cartprice2}.`
   }
     else{
-      var i = 0
+      
       while(i<cart.length - 1){
         
         var cartobjx = cart[i]
