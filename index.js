@@ -42,7 +42,7 @@ function viewCart() {
         var cartobjx = cart[i]
         var cartnamex = cartobjx.itemName
         var cartpricex = cartobjx.itemPrice
-        cartstr += cartnamex
+        cartstr += `${cartnamex} at `
       }
     
       return cartstr 
