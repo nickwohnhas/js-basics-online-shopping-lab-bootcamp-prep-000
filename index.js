@@ -34,7 +34,7 @@ function viewCart() {
     var cartobj11 = cart[0]
     var cartname11 = cartobj11.itemName
     var cartprice11 = cartobj11.itemPrice
-    return `In your cart, you have ${cartname11} at $${cartprice11}, and ${cartname2} at ${cartprice2}.`
+    return `In your cart, you have ${cartname11} at $${cartprice11}, and ${cartname2} at $${cartprice2}.`
   }
     
 }
