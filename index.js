@@ -70,8 +70,11 @@ function removeFromCart(item) {
     var object = cart[i]
     var objectname = object.itemName
     if (item == objectname){
-      
-    }
+     var newcart = cart.splice(i,1)
+      }
+      else {
+        return
+      }
   }
 }
 
