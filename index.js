@@ -45,7 +45,8 @@ function viewCart() {
         i++
         cartstr += `${cartnamex} at ${cartpricex},`
       }
-    
+      var finalobj = cart[cart.length]
+    cartstr += `and ${}`
       return cartstr 
     }
 }
