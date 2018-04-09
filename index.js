@@ -70,7 +70,7 @@ function removeFromCart(item) {
     var object = cart[i]
     var objectname = object.itemName
     if (item == objectname){
-      cart.splice(i,1)
+   var newcart = cart.splice(i,1)
       
       }
       else {
@@ -79,7 +79,7 @@ function removeFromCart(item) {
  
   }
 
-  return cart
+  return newcart
 }
 
 function placeOrder(cardNumber) {
